@@ -1,0 +1,21 @@
+{
+  "name": "reference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "code": "cd client && code . && cd ../server && code .",
+    "start": "start cmd /c \"cd server && npm start\" && start cmd /c \"cd client && npm start\"",
+    "modules": "start cmd /c \"cd server && npm i\" && start cmd /c \"cd client && npm i\"",
+    "build": "gulp build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2"
+  }
+}

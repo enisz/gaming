@@ -1,0 +1,11 @@
+svg.gauge {
+    & > path {
+        stroke: var(--bs-light);
+    }
+
+    & > text {
+        fill: var(--bs-light);
+    }
+
+    fill: var(--bs-dark);
+}

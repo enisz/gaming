@@ -1,2 +1,0 @@
-# gaming
-Gaming application

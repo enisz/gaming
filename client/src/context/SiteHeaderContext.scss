@@ -1,0 +1,28 @@
+div.site-header {
+    div.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.6;
+        background-color: var(--bs-primary);
+    }
+
+    // padding-top: 150px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+div.site-content {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+img.avatar {
+    max-width: 32px;
+}

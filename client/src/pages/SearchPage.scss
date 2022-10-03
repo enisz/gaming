@@ -1,0 +1,12 @@
+img.search-cover {
+    &.loaded {
+        opacity: 1;
+        height: auto;
+        width: auto;
+    }
+
+    width: 90px;
+    height: 128px;
+    opacity: 0;
+    transition: opacity 1s;
+}
